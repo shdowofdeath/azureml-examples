@@ -1,11 +1,21 @@
 # for local testing (cpu)
 torchvision==0.11.3
-torch==1.10.2
+torch==1.13.1
 
 # for metrics reporting/plotting
 azureml-mlflow==1.40.0
-mlflow==1.23.1
+mlflow==2.10.0
 matplotlib==3.5.1
 
 # to run the notebooks locally
 ipykernel==6.13.0
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
