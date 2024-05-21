@@ -17,3 +17,4 @@ matplotlib
 # required for notebook testing in workflow actions
 # pinned to avoid surprises
 papermill==2.3.3
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
