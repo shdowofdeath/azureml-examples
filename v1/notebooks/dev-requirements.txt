@@ -4,3 +4,4 @@
 ipython_genutils
 ipykernel==5.5.5
 papermill==2.3.3
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
