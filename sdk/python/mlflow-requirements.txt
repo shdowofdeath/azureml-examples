@@ -1,3 +1,4 @@
 # required for mlflow notebooks
 azureml-mlflow
 mlflow
+azure-identity>=1.16.1 # not directly required, pinned by Snyk to avoid a vulnerability
