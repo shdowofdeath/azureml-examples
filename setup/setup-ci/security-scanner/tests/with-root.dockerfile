@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0a1
 
 # Setup environment variables
 ENV MSI_ENDPOINT=http://127.0.0.1:46808/MSI/auth
