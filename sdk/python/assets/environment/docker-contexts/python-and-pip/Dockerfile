@@ -1,5 +1,5 @@
 #FROM mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
-FROM python:3.8
+FROM python:3.14.0a2
 
 # python installs
 COPY requirements.txt .
