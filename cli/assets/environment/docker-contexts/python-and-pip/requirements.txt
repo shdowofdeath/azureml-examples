@@ -8,7 +8,7 @@ fsspec==2021.8.1
 
 # trees
 xgboost==1.4.2
-lightgbm==3.2.1
+lightgbm==4.6.0
 
 # tracking
 mlflow==1.20.2
