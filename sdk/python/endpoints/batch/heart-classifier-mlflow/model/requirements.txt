@@ -13,3 +13,4 @@ typing-extensions==4.1.1
 uuid==1.30
 xgboost==1.4.2
 xxhash==3.0.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
