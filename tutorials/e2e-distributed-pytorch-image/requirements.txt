@@ -1,6 +1,6 @@
 # for local testing (cpu)
 torchvision==0.11.3
-torch==1.10.2
+torch==2.7.1
 
 # for metrics reporting/plotting
 azureml-mlflow==1.40.0
@@ -9,3 +9,5 @@ matplotlib==3.5.1
 
 # to run the notebooks locally
 ipykernel==6.13.0
+jupyter-core>=5.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
