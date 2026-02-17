@@ -8,4 +8,5 @@ matplotlib
 tensorflow
 tensorflow-hub
 transformers
-keras==2.9
+keras==3.13.2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
